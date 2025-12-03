@@ -1,6 +1,7 @@
 return {
   defaults = { lazy = true },
-  install = { colorscheme = { "nvchad" } },
+  -- Prefer `eldritch` as the installer default so the theme is applied
+  install = { colorscheme = { "eldritch" } },
 
   ui = {
     icons = {

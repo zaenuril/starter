@@ -13,7 +13,7 @@ return {
     end,
   },
 
-  -- test new blink
+  -- test new blinkShow the current init.lua (I can print it).Show the current init.lua (I can print it).
   -- { import = "nvchad.blink.lazyspec" },
 
   -- {
