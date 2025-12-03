@@ -1,15 +1,18 @@
 return {
   "lukas-reineke/indent-blankline.nvim",
   main = "ibl",
-  event = "BufReadPre",
   opts = {
+    indent = {
+      char = "│",
+      highlight = "Comment",
+    },
     scope = {
       enabled = true,
-      char = "┃",
-      show_start = true,
-      show_end = true,
-      highlight = { "Function", "Label" },
-      priority = 500,
+      show_start = false,
+      show_end = false,
+      highlight = "Function",
     },
-  },
+    whitespace = {
+      remove_blankline_trail = false, },
+    },
 }

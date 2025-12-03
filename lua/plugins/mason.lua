@@ -14,15 +14,14 @@ return {
     config = function()
       require("mason-lspconfig").setup {
         ensure_installed = {
-          "lua-language-server",
+          "lua_ls",
           "clangd",
           "pyright",
-          "typescript-language-server",
-          "html-lsp",
-          "css-lsp",
-          "rust-analyzer",
-          "bash-language-server",
-          "gopls",
+          "ts_ls",
+          "html",
+          "cssls",
+          "rust_analyzer",
+          "bashls",
         },
         automatic_installation = true,
       }
