@@ -4,15 +4,12 @@ return {
   opts = {
     indent = {
       char = "│",
-      highlight = "Comment",
     },
     scope = {
       enabled = true,
-      show_start = false,
-      show_end = false,
-      highlight = "Function",
+      show_start = true,
+      show_end = true,
+      highlight = { "Function", "Label" },
     },
-    whitespace = {
-      remove_blankline_trail = false, },
-    },
+},
 }
