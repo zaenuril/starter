@@ -20,3 +20,8 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.termguicolors = true
 vim.opt.list = true
+ 
+-- tab spacing
+vim.opt.tabstop = 4       -- 1 tab = 4 spasi
+vim.opt.shiftwidth = 4    -- Indentasi = 4 spasi
+vim.opt.softtabstop = 4   -- Backspace behavior
